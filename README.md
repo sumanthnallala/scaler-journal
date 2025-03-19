@@ -1,1 +1,1 @@
-# scaler-journal
+Scaler Journal
