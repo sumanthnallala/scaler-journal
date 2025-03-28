@@ -81,3 +81,7 @@ public class MaxMinArray {
   }
 
 }
+
+// learnings from this problem
+// how to read an array of elements and iterate over them to return sum of max and min element
+// BufferedReader, InputStreamReader, ParseInt, MAX_VALUE, MIN_VALUE,
