@@ -38,3 +38,15 @@ public class GoodPairs {
   }
 
 }
+
+// learnings from this code
+
+// declaration of array
+// int [] arr;, int [] array = new int[5];, int [] = {1, 2, 3, 4, 5};
+// iterating through array
+//for(int num : array){
+//print(num);
+//}
+// parameter vs argument,
+// parameter is the value declared in method signature,
+// argument is the value that we pass to while performing a method call
