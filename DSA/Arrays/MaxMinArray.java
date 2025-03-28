@@ -16,7 +16,8 @@ public class MaxMinArray {
   //  Return the sum of maximum and minimum element of the array
 
   public static void main(String[] args) throws IOException {
-    readingArrayUsingBufferedReader();
+    maxMinArray();
+//    readingArrayUsingBufferedReader();
   }
 
   static void readingArrayInputsUsingScanner() {
@@ -49,6 +50,34 @@ public class MaxMinArray {
     for (int num : arr) {
       System.out.println(num);
     }
+  }
+
+  static void maxMinArray() throws IOException {
+    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    System.out.println("Enter the number of elements: ");
+    int size = Integer.parseInt(bufferedReader.readLine());
+
+    int[] arr = new int[size];
+    System.out.println("Enter elements separated by space");
+    String[] input = bufferedReader.readLine().split(" ");
+
+    for (int i = 0; i < size; i++) {
+      arr[i] = Integer.parseInt(input[i]);
+    }
+
+    int max = Integer.MIN_VALUE;
+    int min = Integer.MAX_VALUE;
+
+    for (int num : arr) {
+      if (num > max) {
+        max = num;
+      }
+      if (num < min) {
+        min = num;
+      }
+    }
+
+    System.out.println("Sum of maximum and minimum element in an array is: " + (max + min));
   }
 
 }
