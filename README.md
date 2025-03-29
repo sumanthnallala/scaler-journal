@@ -1,11 +1,11 @@
 # 🚀 Scaler Problem-Solving Repository
 
-Table of Contents
-- [About This Repo](#-about-this-repo)
-- [Folder Structure](#-folder-structure-)
-- [Connect With Me](#-connect-with-me)
+## Table of Contents
+- [About This Repo](#about-this-repo)
+- [Folder Structure](#folder-structure)
+- [Connect With Me](#connect-with-me)
 
-## 📖 About This Repo
+## About This Repo
 This repository contains solutions to problems from **Scaler Academy**, focusing on:
 - 🧩 **Data Structures & Algorithms (DSA)**
 - 🏆 **Algorithmic Problem Solving**
@@ -16,48 +16,51 @@ The goal is to **improve problem-solving skills** through consistent practice an
 
 ---
 
-## 📂 Folder Structure  
-- Collections Framework
-  - List
-  - Map
-  - Queue
-  - Dequeue
-  - Set
-- DSA
-  - Algorithms
-  - Arrays
-  - Backtracking
-  - BinarySearch
-  - BitManipulation
-  - DynamicProgramming
-  - Graph
-  - Hashing
-  - Heaps
-  - HLD
-  - LLD
-  - LinkedList
-  - Loops
-  - Math
-  - OperatingSystem
-  - Recursion
-  - Searching
-  - Sorting
-  - StacksAndQueues
-  - Strings
-  - Trees
-  - TwoPointers
-- OOPS
-  - Abstraction
-  - Encapsulation
-  - Inheritance
-  - Polymorphism
-- Utils
-  - Input
+## Folder Structure
+- **Collections Framework**
+    - List
+    - Map
+    - Queue
+    - Dequeue
+    - Set
+- **DSA**
+    - Algorithms
+    - Arrays
+    - Backtracking
+    - Binary Search
+    - Bit Manipulation
+    - Dynamic Programming
+    - Graph
+    - Hashing
+    - Heaps
+    - HLD
+    - LLD
+    - Linked List
+    - Loops
+    - Math
+    - Operating System
+    - Recursion
+    - Searching
+    - Sorting
+    - Stacks And Queues
+    - Strings
+    - Trees
+    - Two Pointers
+- **OOPS**
+    - Abstraction
+    - Encapsulation
+    - Inheritance
+    - Polymorphism
+- **Utils**
+    - Input
 
-## ⭐️ Connect With Me
+---
+
+## Connect With Me
 - [LinkedIn](https://www.linkedin.com/in/sumanthnallala/)
-- [Instagram](https://www.instagram.com/sumanthnallala/)
-- [ X ](https://x.com/sumanthnallala)
-# Happy Coding  🚀
+- [Instagram](https://www.instagram.com/sumanthnallala/)  
+- [ X](https://x.com/sumanthnallala)
 
+---
 
+# 🎯 Happy Coding 🚀  
