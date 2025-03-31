@@ -9,14 +9,15 @@ public class Input {
 
   public int inputNumber() {
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Please input your number: ");
     return scanner.nextInt();
   }
 
   public int[] inputArray() throws IOException {
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    System.out.println("Enter number of elements: ");
     int size = Integer.parseInt(bufferedReader.readLine());
     int[] arr = new int[size];
+    System.out.println("Enter elements separated by space: ");
     String[] input = bufferedReader.readLine().split(" ");
     for (int i = 0; i < size; i++) {
       arr[i] = Integer.parseInt(input[i]);
