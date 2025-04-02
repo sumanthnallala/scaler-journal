@@ -15,4 +15,12 @@ public class SpecialIndex {
    * removing an element from these indices makes the sum of even-indexed and odd-indexed array elements equal.
    */
 
+  static void specialIndex(int [] arr){
+
+  }
+
+  public static void main(String[] args) {
+
+  }
+
 }
