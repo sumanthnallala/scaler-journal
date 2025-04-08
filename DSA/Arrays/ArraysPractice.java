@@ -11,7 +11,8 @@ public class ArraysPractice {
 //    reverseInRange();
 //    generateAllSubArrays();
 //    subArraysInRange();
-    mainDiagonalSum();
+//    mainDiagonalSum();
+    maxOnes();
   }
 
   static int maxMin() {
@@ -134,6 +135,25 @@ public class ArraysPractice {
     System.out.println(mainDiagonal);
   }
 
+  static void maxOnes() {
+    int[][] A = {{0, 1, 1}, {1, 1, 1}, {0, 0, 1}};
+    int max = 0;
+    int index = -1;
+    int n = A.length;
+    for (int i = 0; i < n; i++) {
+      int count = 0;
+      for (int j = 0; j < n; j++) {
+        if (A[i][j] == 1) {
+          count++;
+        }
+      }
+      if (count > max) {
+        max = count;
+        index = i;
+      }
+    }
+    System.out.println(index);
+  }
   // 3 3 1 2 3 4 5 6 7 8 9
 
 }
