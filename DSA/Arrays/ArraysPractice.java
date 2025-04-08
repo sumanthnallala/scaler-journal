@@ -1,6 +1,7 @@
 package DSA.Arrays;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class ArraysPractice {
 
@@ -9,7 +10,8 @@ public class ArraysPractice {
 //    rotateArray();
 //    reverseInRange();
 //    generateAllSubArrays();
-    subArraysInRange();
+//    subArraysInRange();
+    mainDiagonalSum();
   }
 
   static int maxMin() {
@@ -100,17 +102,38 @@ public class ArraysPractice {
     for (int i = start; i < end; i++) {
       for (int j = i; j < end; j++) {
         int[] subArray = new int[j - i + 1];
-        for (int k = i; k <= j ; k++) {
-          subArray[k-i] = A[k];
+        for (int k = i; k <= j; k++) {
+          subArray[k - i] = A[k];
         }
         subArrays[index++] = subArray;
       }
     }
 
-    for(int [] array : subArrays){
+    for (int[] array : subArrays) {
       System.out.println(Arrays.toString(array));
     }
   }
 
+  static void mainDiagonalSum() {
+    Scanner scanner = new Scanner(System.in);
+    String[] input = scanner.nextLine().split(" ");
+    int rows = Integer.parseInt(input[0]);
+    int columns = Integer.parseInt(input[1]);
+    boolean squareMatrix = rows == columns;
+    int index = 2;
+    int mainDiagonal = 0;
+    int[][] matrix = new int[rows][columns];
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < columns; j++) {
+        matrix[i][j] = Integer.parseInt(input[index++]);
+      }
+    }
+    for (int i = 0; i < rows; i++) {
+      mainDiagonal += matrix[i][i];
+    }
+    System.out.println(mainDiagonal);
+  }
+
+  // 3 3 1 2 3 4 5 6 7 8 9
 
 }
