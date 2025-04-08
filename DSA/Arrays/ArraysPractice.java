@@ -12,7 +12,8 @@ public class ArraysPractice {
 //    generateAllSubArrays();
 //    subArraysInRange();
 //    mainDiagonalSum();
-    maxOnes();
+//    maxOnes();
+//    checkStringPalindrome();
   }
 
   static int maxMin() {
@@ -155,5 +156,21 @@ public class ArraysPractice {
     System.out.println(index);
   }
   // 3 3 1 2 3 4 5 6 7 8 9
+
+  static void checkStringPalindrome() {
+    String A = "madam";
+    int start = 0;
+    int end = A.length() - 1;
+    boolean isPalindrome = true;
+    while (start < end) {
+      if (A.charAt(start) != A.charAt(end)) {
+        isPalindrome = false;
+        break;
+      }
+      start++;
+      end--;
+    }
+    System.out.println("Given String A is " + (isPalindrome ? "" : "not a ") + "palindrome");
+  }
 
 }
