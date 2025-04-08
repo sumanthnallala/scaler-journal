@@ -14,6 +14,7 @@ public class ArraysPractice {
 //    mainDiagonalSum();
 //    maxOnes();
 //    checkStringPalindrome();
+    checkNumberPalindrome();
   }
 
   static int maxMin() {
@@ -173,4 +174,30 @@ public class ArraysPractice {
     System.out.println("Given String A is " + (isPalindrome ? "" : "not a ") + "palindrome");
   }
 
+  static void checkNumberPalindrome() {
+    int num = 121;
+    int reversed = 0;
+
+    while (num != 0) {
+      int digit = num % 10;
+      reversed = reversed * 10 + digit;
+      num /= 10;
+    }
+
+    if(num == reversed){
+      System.out.println("Number is a palindrome");
+    } else{
+      System.out.println("Number is not a palindrome");
+    }
+
+  }
+
+//  static void sumOfDigits(){
+//    int num = 124;
+//    int sum = 0;
+//    while(num != 0){
+//      int digit = num % 10;
+//      int
+//    }
+//  }
 }
