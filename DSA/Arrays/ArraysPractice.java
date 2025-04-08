@@ -8,7 +8,8 @@ public class ArraysPractice {
 //    maxMin();
 //    rotateArray();
 //    reverseInRange();
-    generateAllSubArrays();
+//    generateAllSubArrays();
+    subArraysInRange();
   }
 
   static int maxMin() {
@@ -82,10 +83,33 @@ public class ArraysPractice {
         subArrays[index++] = subArray;
       }
     }
-    for(int [] array: subArrays){
+    for (int[] array : subArrays) {
       System.out.println(Arrays.toString(array));
     }
 
+  }
+
+  static void subArraysInRange() {
+    int[] A = {1, 2, 3, 4, 5};
+    int start = 1;
+    int end = 4;
+    int N = end - start;
+    int count = N * (N + 1) / 2;
+    int[][] subArrays = new int[count][];
+    int index = 0;
+    for (int i = start; i < end; i++) {
+      for (int j = i; j < end; j++) {
+        int[] subArray = new int[j - i + 1];
+        for (int k = i; k <= j ; k++) {
+          subArray[k-i] = A[k];
+        }
+        subArrays[index++] = subArray;
+      }
+    }
+
+    for(int [] array : subArrays){
+      System.out.println(Arrays.toString(array));
+    }
   }
 
 
