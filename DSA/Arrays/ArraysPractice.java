@@ -14,7 +14,8 @@ public class ArraysPractice {
 //    mainDiagonalSum();
 //    maxOnes();
 //    checkStringPalindrome();
-    checkNumberPalindrome();
+//    checkNumberPalindrome();
+    sumOfDigits();
   }
 
   static int maxMin() {
@@ -192,12 +193,14 @@ public class ArraysPractice {
 
   }
 
-//  static void sumOfDigits(){
-//    int num = 124;
-//    int sum = 0;
-//    while(num != 0){
-//      int digit = num % 10;
-//      int
-//    }
-//  }
+  static void sumOfDigits(){
+    int num = 124;
+    int sum = 0;
+    while(num != 0){
+      int digit = num % 10;
+      num /= 10;
+      sum += digit;
+    }
+    System.out.println(sum);
+  }
 }
