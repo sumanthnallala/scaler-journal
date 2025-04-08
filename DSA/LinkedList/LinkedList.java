@@ -5,10 +5,12 @@ public class LinkedList {
   Node head;
 
   public static void main(String[] args) {
-
+    LinkedList linkedList = new LinkedList();
+    linkedList.insertFirst(1);
+    System.out.println(linkedList);
   }
 
-  void insert(int data) {
+  void insertLast(int data) {
     Node newNode = new Node(data);
 
     if (head == null) {
@@ -21,6 +23,14 @@ public class LinkedList {
       temp = temp.next;
     }
     temp.next = newNode;
+  }
+
+  void insertFirst(int data){
+    Node newNode = new Node(data);
+
+    Node head = null;
+    newNode.next = head;
+    head = newNode;
   }
 
 }
