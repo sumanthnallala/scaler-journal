@@ -6,7 +6,8 @@ public class ArraysPractice {
 
   public static void main(String[] args) {
 //    maxMin();
-    rotateArray();
+//    rotateArray();
+    reverseInRange();
   }
 
   static int maxMin() {
@@ -44,9 +45,24 @@ public class ArraysPractice {
     if (B > n) {
       B = B % n;
     }
-    reverseInRange(0, n-1, A);
-    reverseInRange(0, B-1, A);
-    reverseInRange(B, n-1, A);
+    reverseInRange(0, n - 1, A);
+    reverseInRange(0, B - 1, A);
+    reverseInRange(B, n - 1, A);
+    return A;
+  }
+
+  static int[] reverseInRange() {
+    int[] A = {1, 2, 3, 4, 5};
+    int B = 2;
+    int C = 3;
+    while (B < C) {
+      int temp = A[B];
+      A[B] = A[C];
+      A[C] = temp;
+      B++;
+      C--;
+    }
+    System.out.println(Arrays.toString(A));
     return A;
   }
 
