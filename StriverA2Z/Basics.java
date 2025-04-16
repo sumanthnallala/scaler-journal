@@ -13,6 +13,7 @@ public class Basics {
     reverseNumber();
     palindromeNumber();
     gcdHcf();
+    armstrongNumber();
   }
 
   static void inputOutput() {
@@ -134,5 +135,22 @@ public class Basics {
       }
     }
     System.out.println(gcd);
+  }
+
+  static void armstrongNumber() {
+    int n = 153;
+    int dup2 = n;
+    int sum = 0;
+    int digits = String.valueOf(n).length();
+    for (int i = 0; i < digits; i++) {
+      int digit = dup2 % 10;
+      dup2 = dup2 / 10;
+      sum += Math.pow(digit, digits);
+    }
+    if(sum == n){
+      System.out.println("Given number is a armstrong number");
+    } else{
+      System.out.println("Given number is not a armstrong number");
+    }
   }
 }
