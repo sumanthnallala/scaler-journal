@@ -1,5 +1,7 @@
 package DSA.Recursion;
 
+import java.sql.SQLOutput;
+
 public class PrintOnetoA {
 
   /**
@@ -43,6 +45,7 @@ public class PrintOnetoA {
   public static void main(String[] args) {
 //    oneToA(10);
     String result = oneToAA(1, 10);
+    System.out.println(result);
     System.out.println(result.trim());
   }
 

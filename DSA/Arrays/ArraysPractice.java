@@ -1,6 +1,7 @@
 package DSA.Arrays;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class ArraysPractice {
@@ -15,7 +16,8 @@ public class ArraysPractice {
 //    maxOnes();
 //    checkStringPalindrome();
 //    checkNumberPalindrome();
-    sumOfDigits();
+//    sumOfDigits();
+    testList();
   }
 
   static int maxMin() {
@@ -185,22 +187,33 @@ public class ArraysPractice {
       num /= 10;
     }
 
-    if(num == reversed){
+    if (num == reversed) {
       System.out.println("Number is a palindrome");
-    } else{
+    } else {
       System.out.println("Number is not a palindrome");
     }
 
   }
 
-  static void sumOfDigits(){
+  static void sumOfDigits() {
     int num = 124;
     int sum = 0;
-    while(num != 0){
+    while (num != 0) {
       int digit = num % 10;
       num /= 10;
       sum += digit;
     }
     System.out.println(sum);
+  }
+
+  static void testList() {
+    List<String> strings = Arrays.asList("sumanth", "supriya");
+    List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+    List<String> result =
+        strings.stream().map(string -> "").toList();
+    List<String> filteredResult = strings.stream().filter(string -> string.equalsIgnoreCase(
+        "sumanth")).toList();
+    int resultSum = numbers.stream().reduce(0, (a, b) -> a + b );
+    System.out.println(resultSum);
   }
 }
