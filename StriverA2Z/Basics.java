@@ -1,6 +1,7 @@
 package StriverA2Z;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -22,6 +23,9 @@ public class Basics {
     printNameWithRecursion(5);
     oneToN(1, 5);
     nToOne(5);
+    sumOfNumbers(0, 5);
+    factorial(1, 5);
+    reverseArray(0, 4, new int[]{1, 2, 3, 4, 5});
   }
 
   static void inputOutput() {
@@ -222,5 +226,43 @@ public class Basics {
     System.out.println(n);
     nToOne(n - 1);
   }
+
+  static void sumOfNumbers(int sum, int n) {
+    if (n < 1) {
+      System.out.println("Sum of first n numbers " + sum);
+      return;
+    }
+    sum += n;
+    sumOfNumbers(sum, n - 1);
+  }
+
+  static void factorial(int res, int n) {
+    if (n < 1) {
+      System.out.println("Factorial of given number: " + res);
+      return;
+    }
+    res *= n;
+    factorial(res, n - 1);
+  }
+
+  static void reverseArray(int start, int end, int[] arr) {
+    if (start > end) {
+      System.out.println(Arrays.toString(arr));
+      return;
+    }
+    int temp = arr[start];
+    arr[start] = arr[end];
+    arr[end] = temp;
+    reverseArray(start + 1, end - 1, arr);
+  }
+
+  static void test() {
+    List<Integer> arr = Arrays.asList(1, 2, 3);
+    int[] arrr = new int[]{1, 2};
+  }
+
+
+
+
 
 }
