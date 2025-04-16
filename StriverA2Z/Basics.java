@@ -18,6 +18,9 @@ public class Basics {
     armstrongNumber();
     divisors();
     prime();
+    recursionNTimes(5);
+    printNameWithRecursion(5);
+    oneToN(1, 10);
   }
 
   static void inputOutput() {
@@ -180,11 +183,35 @@ public class Basics {
         break;
       }
     }
-    if(isPrime){
+    if (isPrime) {
       System.out.println("Given number is prime number");
-    } else{
+    } else {
       System.out.println("Given number is not a prime number");
     }
+  }
+
+  static void recursionNTimes(int n) {
+    if (n == 0) {
+      return;
+    }
+    System.out.println(n);
+    recursionNTimes(n - 1);
+  }
+
+  static void printNameWithRecursion(int n) {
+    if (n == 0) {
+      return;
+    }
+    System.out.println("Sumanth");
+    printNameWithRecursion(n - 1);
+  }
+
+  static void oneToN(int start, int n) {
+    if (start > n) {
+      return;
+    }
+    System.out.println(start);
+    oneToN(start + 1, n);
   }
 
 }
