@@ -1,7 +1,6 @@
 package StriverA2Z;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -18,6 +17,7 @@ public class Basics {
     gcdHcf();
     armstrongNumber();
     divisors();
+    prime();
   }
 
   static void inputOutput() {
@@ -162,13 +162,29 @@ public class Basics {
     int n = 6;
     int num = (int) Math.sqrt(n);
     List<Integer> arr = new ArrayList<>();
-    for (int i = 1; i <= num+1; i++) {
+    for (int i = 1; i <= num + 1; i++) {
       if (n % i == 0) {
         arr.add(i);
       }
     }
     arr.add(n);
     System.out.println(arr);
+  }
+
+  static void prime() {
+    int num = 3;
+    boolean isPrime = true;
+    for (int i = 2; i < num; i++) {
+      if (num % i == 0) {
+        isPrime = false;
+        break;
+      }
+    }
+    if(isPrime){
+      System.out.println("Given number is prime number");
+    } else{
+      System.out.println("Given number is not a prime number");
+    }
   }
 
 }
