@@ -26,6 +26,7 @@ public class Basics {
     sumOfNumbers(0, 5);
     factorial(1, 5);
     reverseArray(0, 4, new int[]{1, 2, 3, 4, 5});
+    palindrome();
   }
 
   static void inputOutput() {
@@ -261,8 +262,23 @@ public class Basics {
     int[] arrr = new int[]{1, 2};
   }
 
-
-
+  static void palindrome() {
+    String s = "hannah";
+    int n = s.length();
+    int l = n % 2 == 0 ? n / 2 : n / 2 + 1;
+    boolean isPalindrome = true;
+    for (int i = 0; i < l; i++) {
+      if (s.charAt(i) != s.charAt(n - 1 - i)) {
+        isPalindrome = false;
+        break;
+      }
+    }
+    if (isPalindrome) {
+      System.out.println("String is palindrome");
+    } else {
+      System.out.println("String is not palindrome");
+    }
+  }
 
 
 }
