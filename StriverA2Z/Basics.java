@@ -20,7 +20,8 @@ public class Basics {
     prime();
     recursionNTimes(5);
     printNameWithRecursion(5);
-    oneToN(1, 10);
+    oneToN(1, 5);
+    nToOne(5);
   }
 
   static void inputOutput() {
@@ -212,6 +213,14 @@ public class Basics {
     }
     System.out.println(start);
     oneToN(start + 1, n);
+  }
+
+  static void nToOne(int n) {
+    if (n < 1) {
+      return;
+    }
+    System.out.println(n);
+    nToOne(n - 1);
   }
 
 }
