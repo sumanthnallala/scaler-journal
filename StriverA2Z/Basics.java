@@ -1,5 +1,8 @@
 package StriverA2Z;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Basics {
@@ -14,6 +17,7 @@ public class Basics {
     palindromeNumber();
     gcdHcf();
     armstrongNumber();
+    divisors();
   }
 
   static void inputOutput() {
@@ -147,10 +151,24 @@ public class Basics {
       dup2 = dup2 / 10;
       sum += Math.pow(digit, digits);
     }
-    if(sum == n){
+    if (sum == n) {
       System.out.println("Given number is a armstrong number");
-    } else{
+    } else {
       System.out.println("Given number is not a armstrong number");
     }
   }
+
+  static void divisors() {
+    int n = 6;
+    int num = (int) Math.sqrt(n);
+    List<Integer> arr = new ArrayList<>();
+    for (int i = 1; i <= num+1; i++) {
+      if (n % i == 0) {
+        arr.add(i);
+      }
+    }
+    arr.add(n);
+    System.out.println(arr);
+  }
+
 }
