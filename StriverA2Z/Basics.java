@@ -1,6 +1,5 @@
 package StriverA2Z;
 
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Basics {
@@ -13,6 +12,7 @@ public class Basics {
     sumOfDigits();
     reverseNumber();
     palindromeNumber();
+    gcdHcf();
   }
 
   static void inputOutput() {
@@ -121,5 +121,18 @@ public class Basics {
     } else {
       System.out.println("Given number is not a palindrome");
     }
+  }
+
+  static void gcdHcf() {
+    int n1 = 12;
+    int n2 = 24;
+    int max = Math.max(n1, n2);
+    int gcd = 1;
+    for (int i = 1; i <= max; i++) {
+      if ((n1 % i == 0) && (n2 % i == 0) && i > gcd) {
+        gcd = i;
+      }
+    }
+    System.out.println(gcd);
   }
 }
