@@ -27,6 +27,7 @@ public class Basics {
     factorial(1, 5);
     reverseArray(0, 4, new int[]{1, 2, 3, 4, 5});
     palindrome();
+    fibonacci(6);
   }
 
   static void inputOutput() {
@@ -278,6 +279,17 @@ public class Basics {
     } else {
       System.out.println("String is not palindrome");
     }
+  }
+
+  static int fibonacci(int n) {
+    if (n <= 1) {
+      System.out.println(n);
+      return n;
+    }
+
+    int res = fibonacci(n - 1) + fibonacci(n - 2);
+    System.out.println(res);
+    return res;
   }
 
 
