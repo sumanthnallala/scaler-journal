@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0543cac5-1592-4070-b1d7-a6c6e4372a9f" name="Changes" comment="recursion">
+      <change afterPath="$PROJECT_DIR$/DSA/Backtracking/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Backtracking/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Hashing/CheckPairSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Hashing/CountPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Math/DeleteOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Math/ExcelColumnTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Math/PairSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Math/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/PrimeNumbers/PrimeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Recursion/CheckPalindromeUsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Recursion/ImplementPowerFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Recursion/SimpleRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Singleton/EagerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module02/Arrayz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module02/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module03/Arrayzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module03/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module04/Arrayzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module04/BitManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module04/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module05/Hashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalerModules/Module06/Stackk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StriverA2Z/Arrayss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StriverA2Z/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/SingletonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scaler-journal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Arrays/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Arrays/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Backtracking/GenerateAllParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Backtracking/GenerateAllParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Math/ExcelColumnNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Math/ExcelColumnNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Math/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Math/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StriverA2Z/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/StriverA2Z/Basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/.idea/google-java-format.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/.idea/scaler-journal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/CollectionsFramework/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/CollectionsFramework/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/CollectionsFramework/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/CollectionsFramework/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/CollectionsFramework/Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Algorithms/MajorityElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/AntiDiagonals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/ArrayRotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/ArraysPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/ClosestMinMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/ColumnSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/ContinuousSumQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/DeleteOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/ElementRemoval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/FirstMissingInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/GenerateAllSubarrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/GoodPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/LongestConsecutiveOnesLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/MainDiagonalSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/MatrixTranspose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/MaxMinArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/MaxSubArrayEasy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/MaxSumContiguousSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/MergeIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/MergeOverlappingIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/NobleInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/PairDivisibleByM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/PascalTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/RainWaterTrapped.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/RangeSumQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/ReverseInRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/RotateMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/RowToColumnZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/RowWithMaxOnes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/SearchRowWiseAndColumnWise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/SpecialIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/SpecialSubsequences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/SpiralOrderMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/SubArrayWithSumAndLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/SubArraysInGivenRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/SumOfAllSubarrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Arrays/TestPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BInarySearch/ImplementPowerFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Backtracking/GenerateAllParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/CheckBit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/HelpFromSam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/MaxAndPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/NumberOfOneBits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/SetBit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/SingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/SubArrayOR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/ToggleIthBit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/TwoMissingNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/BitManipulation/UnsetIthBit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/FileHandling/FileHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/LinkedList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/LinkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Loops/CountOfFactors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Loops/CountOfPrimes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Math/CheckPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Math/ExcelColumnNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Math/GCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Math/ModSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Math/PerfectNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Math/SumOfAllSubMatrices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Recursion/Fibanocci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Recursion/FindFactorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Recursion/FindFibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Recursion/PalindromeUsingRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Recursion/Permutations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Recursion/PrintOnetoA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Recursion/Subset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Recursion/TowerOfHanoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Sorting/KthSmallestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Strings/AddBinaryStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Strings/LongestPalindromicSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Strings/ReverseTheString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Strings/SimpleReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Strings/StringOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/DSA/Strings/ToggleCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/MongoCommands.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Abstraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/AbstractionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Ant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Bee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Cows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Encapsulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/EncapsulationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/OOPS/PolyMorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/SQLCommands.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/StriverA2Z/Basics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/Utils/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/learnings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/structure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scaler-journal/test.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sumanthnallala&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:sumanthnallala/scaler-journal.git&quot;,
+    &quot;accountId&quot;: &quot;5d3fd182-1d2f-41ab-9bcf-5ff17b62aab4&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib/src.zip!/java.base/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/DSA/Arrays/SpecialIndex.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DSA/Arrays/SumOfAllSubarrays.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2uX7XqXV0gkJa6aenC1NmHzEYbX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Abstraction.executor": "Run",
+    "Application.AbstractionMain.executor": "Run",
+    "Application.ArrayRotation.executor": "Run",
+    "Application.Arrays.executor": "Run",
+    "Application.ArraysPractice.executor": "Run",
+    "Application.Arrayss.executor": "Run",
+    "Application.Arrayz.executor": "Run",
+    "Application.Arrayzz.executor": "Run",
+    "Application.Basics.executor": "Run",
+    "Application.BitManipulation.executor": "Run",
+    "Application.CheckPairSum.executor": "Run",
+    "Application.CheckPalindromeUsingRecursion.executor": "Run",
+    "Application.CheckPrime.executor": "Run",
+    "Application.CountOfFactors.executor": "Run",
+    "Application.CountOfPrimes.executor": "Run",
+    "Application.CountPair.executor": "Run",
+    "Application.CountPairDiff.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.Encapsulation.executor": "Run",
+    "Application.ExcelColumnNumbe.executor": "Run",
+    "Application.ExcelColumnNumber.executor": "Run",
+    "Application.ExcelColumnTitle.executor": "Run",
+    "Application.Fibanocci.executor": "Debug",
+    "Application.FileHandling.executor": "Run",
+    "Application.FinalMethodExample.executor": "Run",
+    "Application.FindFactorial.executor": "Debug",
+    "Application.FindFibonacci.executor": "Run",
+    "Application.GCD.executor": "Debug",
+    "Application.GenerateAllParentheses.executor": "Run",
+    "Application.GenerateAllSubarrays.executor": "Run",
+    "Application.GoodPairs.executor": "Debug",
+    "Application.Hashing.executor": "Run",
+    "Application.HelpFromSam.executor": "Run",
+    "Application.ImplementPowerFunction.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.List.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxMinArray.executor": "Run",
+    "Application.PairSum.executor": "Debug",
+    "Application.PascalTriangle.executor": "Run",
+    "Application.PerfectNumber.executor": "Run",
+    "Application.Permutations.executor": "Run",
+    "Application.PolyMorphism.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.PrimeSum.executor": "Run",
+    "Application.PrintOnetoA.executor": "Run",
+    "Application.ReverseInRange.executor": "Run",
+    "Application.ScalerModules.Module02.Strings.executor": "Run",
+    "Application.ScalerModules.Module04.Arrayzz.executor": "Debug",
+    "Application.SimpleRecursion.executor": "Debug",
+    "Application.Sorting.executor": "Debug",
+    "Application.Stackk.executor": "Run",
+    "Application.StaticVariableExample.executor": "Run",
+    "Application.Strings.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestPractice.executor": "Run",
+    "Application.Things2Know.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sumanthreddy/scaler-journal",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="DSA.Strings" />
+      <recent name="DSA.Sorting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CountPair">
+    <configuration name="CountPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Hashing.CountPair" />
+      <module name="scaler-journal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountPairDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Hashing.CountPairDiff" />
+      <module name="scaler-journal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelColumnTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Math.ExcelColumnTitle" />
+      <module name="scaler-journal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Math.GCD" />
+      <module name="scaler-journal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Math.PascalTriangle" />
+      <module name="scaler-journal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountPair" />
+        <item itemvalue="Application.CountPairDiff" />
+        <item itemvalue="Application.ExcelColumnTitle" />
+        <item itemvalue="Application.PascalTriangle" />
+        <item itemvalue="Application.GCD" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Objects of list" />
+    <MESSAGE value="count of primes" />
+    <MESSAGE value="count of factors" />
+    <MESSAGE value="Perfect Number and Input" />
+    <MESSAGE value="Good Pair" />
+    <MESSAGE value="MaxMinArray" />
+    <MESSAGE value="MaxMinArray learnings" />
+    <MESSAGE value="Added classes and Readme content" />
+    <MESSAGE value="updated readme content" />
+    <MESSAGE value="Array Rotation" />
+    <MESSAGE value="ReverseInRange" />
+    <MESSAGE value="Commands" />
+    <MESSAGE value="FileHandling" />
+    <MESSAGE value="FindFactorial" />
+    <MESSAGE value="Fibonacci" />
+    <MESSAGE value="PrintOnetoA" />
+    <MESSAGE value="Arrays" />
+    <MESSAGE value="LinkedList" />
+    <MESSAGE value="ArraysPractice" />
+    <MESSAGE value="Practice" />
+    <MESSAGE value="gcd" />
+    <MESSAGE value="armstrong number" />
+    <MESSAGE value="divisors" />
+    <MESSAGE value="prime" />
+    <MESSAGE value="recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Arrays/Test.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ScalerModules/Module02/Arrayz.java</url>
+          <line>461</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ScalerModules/Module04/Arrayzz.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ScalerModules/Module03/Sorting.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Recursion/SimpleRecursion.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Recursion/SimpleRecursion.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Backtracking/Permutations.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Backtracking/Permutations.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Math/PairSum.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Math/GCD.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Math/GCD.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSA/Math/ExcelColumnTitle.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ScalerModules/Module03/Arrayzz.java</url>
+          <line>32</line>
+          <properties class="ScalerModules.Module03.Arrayzz" method="mainDiagonalSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
